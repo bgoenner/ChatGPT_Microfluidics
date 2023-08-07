@@ -1,0 +1,12 @@
+
+
+<!-- 
+	Supplemental 2D design 1
+
+-->
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5000" width="50800" height="50800">
+    <rect x="0" y="0" width="100" height="5000" fill="black" />
+    <rect x="0" y="2250" width="100" height="500" fill="red" />
+</svg>

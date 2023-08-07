@@ -1,0 +1,22 @@
+
+
+<!-- 
+	Supplemental 2D design 2
+
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 5100" width="5000" height="5100">
+    <rect x="0" y="0" width="5000" height="5100" fill="black" />
+    <path stroke="red" stroke-width="100" fill="none" d="
+    M 250,2550 
+    H 4750 
+    V 3050 
+    H 250 
+    V 3550 
+    H 4750 
+    V 4050 
+    H 250 
+    V 4550 
+    H 4750
+    "/>
+</svg>

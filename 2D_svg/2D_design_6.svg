@@ -1,0 +1,25 @@
+
+
+<!-- 
+	Supplemental 2D design 6
+
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51800 51800" width="51800" height="51800">
+    <rect x="0" y="0" width="51800" height="51800" fill="black" />
+    <path stroke="red" stroke-width="100" fill="none" d="
+    M 3000,18000 
+    H 48800 
+    V 21000 
+    H 3000 
+    V 24000 
+    H 48800 
+    V 27000 
+    H 3000 
+    V 30000 
+    H 48800
+    "/>
+    <circle cx="3000" cy="18000" r="500" fill="red"/>
+    <circle cx="48800" cy="30000" r="500" fill="red"/>
+    <circle cx="25900" cy="25900" r="25400" stroke="red" stroke-width="100" fill="none"/>
+</svg>
