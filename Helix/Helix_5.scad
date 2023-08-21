@@ -20,6 +20,6 @@ module spiral_pipe(turns, pitch, radius, diameter) {
 }
 
 difference() {
-    cube([33, 33, 52], center=true);
+    %cube([33, 33, 52], center=true);
     translate([0, 0, -26 + 1.5/2]) spiral_pipe(10, 5, 10, 1.5); // Increase the pitch to 5 units
 }

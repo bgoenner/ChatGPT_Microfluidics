@@ -20,11 +20,12 @@ module spiral_pipe(turns, pitch, radius, diameter) {
 }
 
 difference() {
-    cube([33, 33, 52], center=true);
-    
+    %cube([33, 33, 52], center=true);
+    union(){ // not in original code
     translate([0, 0, -26 + 1.5/2]) spiral_pipe(5, 5, 10, 1.5); // Decrease the number of turns to 5
     
     // Add the holes
     translate([0, 0, -26]) cylinder(h=2, r=1, center=true);
     translate([0, 0, 26]) cylinder(h=2, r=1, center=true);
+    }
 }

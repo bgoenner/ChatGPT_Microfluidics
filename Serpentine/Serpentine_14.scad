@@ -21,7 +21,7 @@ cube_height = 5;
 // Start with the cube
 difference() {
     translate([0, -cube_length/2 + 2.5, 0]) // Center the cube on the y-axis and add 2.5mm offset
-        cube([cube_width, cube_length, cube_height], center=true);
+        %cube([cube_width, cube_length, cube_height], center=true);
 
     // Combine all the cylinders into a single object
     union() {

@@ -1,4 +1,16 @@
 
+/*
+    This is a master render file
+    
+    
+    To view each model uncomment a line of code by removing
+    // and preview/rendering the geometry. You must render
+    the code to view it as a wireframe. Not all the code
+    works since ChatGPT gave unrenderable code.
+
+*/
+
+
 
 //include <Helix/Helix_1.scad>
 //include <Helix/Helix_2.scad>

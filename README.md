@@ -3,7 +3,9 @@
 This a collection of code output for Utilizing ChatGPT to Assist CAD Design for Microfluidic Devices. 
 
 The SCAD code can be rendered from running the render.scad file in OpenSCAD and uncommenting the model and prompt
-number.
+number. The code has been modified to make it easier to view internal geometries, but keeping all code and 
+structures unmodified.
+
 
 The SVG files can be opened through a variety of programs such as a browser or Inkscape. However, the images 
 are very large so it is suggested to not use a browser since they may not zoom out far enough.

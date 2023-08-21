@@ -29,11 +29,12 @@ hole_length = 5; // Length of the holes
 cube_height = (turns - 1) * pitch + diameter + hole_length + 5; // Calculate the height of the cube including hole length
 
 difference() {
-    cube([20, 20, cube_height], center=true);
-    
+    %cube([20, 20, cube_height], center=true);
+    union(){ // not in original code!
     translate([0, 0, -cube_height/2 + diameter/2 + hole_length/2]) spiral_pipe(turns, pitch, radius, diameter); 
     
     // Add the holes
     translate([5, 0, -cube_height/2]) cylinder(h=hole_length, r=hole_diameter/2, center=true);
     translate([5, 0, cube_height/2]) cylinder(h=hole_length, r=hole_diameter/2, center=true);
+    }
 }
